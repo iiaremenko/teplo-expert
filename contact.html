@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Контакти — Тепло-Майстер Полтава</title>
+  <meta name="description" content="Зв’яжіться: телефон, форма та карта Полтавської області. Безкоштовна консультація з підбору та сервісу." />
+  <meta name="keywords" content="газовий котел Полтава, ремонт котлів Полтава, сервіс котлів, встановити котел, купити газову колонку, майстер по котлах, обслуговування котлів ATON, ремонт котлів NAVIEN" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="branding">
+        <img src="logo-placeholder.svg" alt="Логотип" class="logo" />
+        <span class="brand-text">Тепло-Майстер Полтава</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Перемикач меню">
+        <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="nav-menu" id="primary-navigation" aria-label="Головне меню">
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="services.html">Послуги</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="about.html">Про нас</a></li>
+          <li><a class="active" href="contact.html">Контакти</a></li>
+        </ul>
+        <a class="header-phone" href="tel:+380503049409">050 30 49 409</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Завжди на зв’язку, щоб допомогти вам!</h1>
+        <p>Зателефонуйте для консультації, діагностики чи екстреного виклику. Або залиште заявку, і я вам перетелефоную.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-wrap">
+        <div class="contact-info">
+          <h2>Зв’язатися</h2>
+          <p><strong>Телефон:</strong> <a href="tel:+380503049409">050 30 49 409</a></p>
+          <p><strong>Регіон:</strong> Полтава та Полтавська область</p>
+        </div>
+
+        <form id="contact-form" class="contact-form" novalidate>
+          <h2>Надіслати повідомлення</h2>
+          <div class="form-grid">
+            <label>
+              <span>Ім’я</span>
+              <input type="text" name="name" placeholder="Ваше ім’я" required />
+            </label>
+            <label>
+              <span>Номер телефону</span>
+              <input type="tel" name="phone" placeholder="+380..." required />
+            </label>
+            <label class="full">
+              <span>Ваше повідомлення</span>
+              <textarea name="message" rows="5" placeholder="Коротко опишіть запит" required></textarea>
+            </label>
+          </div>
+          <button class="btn btn-accent" type="submit">Отримати консультацію</button>
+          <p class="form-note">Форма демонстраційна (без відправки на сервер).</p>
+        </form>
+      </div>
+    </section>
+
+    <section class="section section-alt">
+      <div class="container">
+        <h2 class="section-title">Ми працюємо по всій Полтавській області</h2>
+        <div class="map-wrap">
+          <iframe title="Полтавська область — карта" src="https://www.google.com/maps?q=Poltava%20Oblast&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade" aria-label="Карта Полтавської області"></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand">Тепло-Майстер Полтава</div>
+        <p><a href="tel:+380503049409">Тел: 050 30 49 409</a></p>
+      </div>
+      <nav class="footer-nav" aria-label="Нижнє меню">
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="services.html">Послуги</a></li>
+          <li><a href="catalog.html">Каталог</a></li>
+          <li><a href="about.html">Про нас</a></li>
+          <li><a class="active" href="contact.html">Контакти</a></li>
+        </ul>
+      </nav>
+      <div>
+        <small>Полтава, Полтавський район, Кременчук, Миргород, Лубни • газовий котел Полтава, ремонт котлів Полтава, сервіс котлів, встановити котел, купити газову колонку, майстер по котлах, обслуговування котлів ATON, ремонт котлів NAVIEN.</small>
+      </div>
+      <div class="footer-copy">
+        <small>© <span id="year"></span> Тепло-Майстер Полтава.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

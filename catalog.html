@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Каталог — Тепло-Майстер Полтава</title>
+  <meta name="description" content="Каталог: газові котли ATON, TERMO, NAVIEN; газові колонки Iskra, Maybres, Lvivska; газові конвектори ЖИТОМИР." />
+  <meta name="keywords" content="газовий котел Полтава, ремонт котлів Полтава, сервіс котлів, встановити котел, купити газову колонку, майстер по котлах, обслуговування котлів ATON, ремонт котлів NAVIEN" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="favicon.ico" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a href="index.html" class="branding">
+        <img src="logo-placeholder.svg" alt="Логотип" class="logo" />
+        <span class="brand-text">Тепло-Майстер Полтава</span>
+      </a>
+      <button class="nav-toggle" aria-expanded="false" aria-controls="primary-navigation" aria-label="Перемикач меню">
+        <span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span><span class="nav-toggle-bar"></span>
+      </button>
+      <nav class="nav-menu" id="primary-navigation" aria-label="Головне меню">
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="services.html">Послуги</a></li>
+          <li><a class="active" href="catalog.html">Каталог</a></li>
+          <li><a href="about.html">Про нас</a></li>
+          <li><a href="contact.html">Контакти</a></li>
+        </ul>
+        <a class="header-phone" href="tel:+380503049409">050 30 49 409</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Каталог</h1>
+        <p>Кожен дім унікальний, тому я підбираю обладнання під ваші умови: площу, тип димоходу, наявність гарячої води, бюджет. У каталозі — перевірені рішення для Полтави та області: котли ATON, TERMO, NAVIEN, конвектори Житомир, газові колонки. Допоможу обрати, доставлю, змонтую і запущу під ключ.</p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="filters" role="tablist" aria-label="Фільтр категорій">
+          <button class="filter-btn active" data-filter="all" role="tab" aria-selected="true">Усе</button>
+          <button class="filter-btn" data-filter="kotel" role="tab" aria-selected="false">Газові котли</button>
+          <button class="filter-btn" data-filter="kolonka" role="tab" aria-selected="false">Газові колонки</button>
+          <button class="filter-btn" data-filter="konvektor" role="tab" aria-selected="false">Газові конвектори</button>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="boilers">
+      <div class="container">
+        <h2 class="section-title">Газові котли</h2>
+
+        <div class="brand-intro" id="aton">
+          <h3>ATON</h3>
+          <p>Надійні українські котли, перевірені часом. Ідеально підходять для підлогового та парапетного монтажу. Широка лінійка потужностей, просте обслуговування, доступні запчастини. Оптимальний вибір для тих, хто цінує невибагливість і стабільність роботи в умовах нашого регіону.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card catalog-item" data-category="kotel">
+            <img src="aton-atmo.jpg" alt="ATON Atmo — приклад" />
+            <h4>ATON Atmo (підлоговий димохідний)</h4>
+            <p>Надійний підлоговий котел для класичних систем опалення.</p>
+          </article>
+
+          <article class="card catalog-item" data-category="kotel">
+            <img src="aton-compact.jpg" alt="ATON Compact — приклад" />
+            <h4>ATON Compact (парапетний)</h4>
+            <p>Ефективний парапетний котел з виводом через стіну.</p>
+          </article>
+
+          <article class="card catalog-item" data-category="kotel">
+            <img src="aton-multi.jpg" alt="ATON Multi/Tra Energy — приклад" />
+            <h4>ATON Multi / Tra Energy (твердопаливні)</h4>
+            <p>Твердопаливні рішення з високою автономністю.</p>
+          </article>
+        </div>
+
+        <div class="brand-intro" id="termo">
+          <h3>TERMO</h3>
+          <p>Ефективні та економічні рішення для опалення приватних будинків і квартир. Сучасна автоматика, добрий ККД, просте керування. Підійдуть власникам, яким потрібен збалансований варіант «ціна/якість» без перевитрати газу та складного сервісу.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card catalog-item" data-category="kotel">
+            <img src="termo.jpg" alt="TERMO газовий котел — приклад" />
+            <h4>TERMO газовий котел</h4>
+            <p>Надійний котел для опалення приватних будинків.</p>
+          </article>
+        </div>
+
+        <div class="brand-intro" id="navien">
+          <h3>NAVIEN</h3>
+          <p>Сучасні настінні двоконтурні котли з Кореї — опалення та гаряча вода в одному корпусі. Компактні, тихі, з продуманою електронікою і модуляцією полум’я. Рекомендую для квартир і будинків із потребою в стабільній ГВП та економному споживанні газу.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card catalog-item" data-category="kotel">
+            <img src="navien.jpg" alt="NAVIEN настінний котел — приклад" />
+            <h4>NAVIEN двоконтурний</h4>
+            <p>Опалення та гаряча вода в одному корпусі.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="heaters">
+      <div class="container">
+        <h2 class="section-title">Газові колонки</h2>
+        <p>Прості та надійні газові водонагрівачі для стабільної подачі гарячої води. Легке керування, ремонтопридатність, доступні комплектуючі. Ідеально для квартир та приватних будинків, де потрібна економна й безвідмовна ГВП без складних систем.</p>
+
+        <div class="brand-intro" id="iskra">
+          <h3>Iskra</h3>
+          <p>Моделі для щоденного використання з простою експлуатацією.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card catalog-item" data-category="kolonka">
+            <img src="iskra.jpg" alt="Iskra газова колонка — приклад" />
+            <h4>Iskra газова колонка</h4>
+            <p>Стабільна робота та легке керування.</p>
+          </article>
+        </div>
+
+        <div class="brand-intro" id="maybres">
+          <h3>Maybres</h3>
+          <p>Сучасний дизайн і функціональність для комфортного користування.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card catalog-item" data-category="kolonka">
+            <img src="maybres.jpg" alt="Maybres газова колонка — приклад" />
+            <h4>Maybres газова колонка</h4>
+            <p>Надійний нагрів і просте встановлення.</p>
+          </article>
+        </div>
+
+        <div class="brand-intro" id="lvivska">
+          <h3>Lvivska</h3>
+          <p>Перевірена якість у поєднанні з доступною ціною.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card catalog-item" data-category="kolonka">
+            <img src="lvivska.jpg" alt="Lvivska газова колонка — приклад" />
+            <h4>Lvivska газова колонка</h4>
+            <p>Простота обслуговування та довговічність.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section" id="zhytomyr">
+      <div class="container">
+        <h2 class="section-title">Газові конвектори</h2>
+
+        <div class="brand-intro">
+          <h3>ЖИТОМИР</h3>
+          <p>Автономне й ефективне опалення окремих приміщень: майстерні, офіси, дачі. Простий монтаж, швидкий прогрів, робота без складної системи труб. Гарне рішення, коли потрібне локальне тепло з мінімальними витратами на встановлення.</p>
+        </div>
+        <div class="grid grid-3">
+          <article class="card catalog-item" data-category="konvektor">
+            <img src="zhytomyr-convector.jpg" alt="ЖИТОМИР газовий конвектор — приклад" />
+            <h4>ЖИТОМИР конвектор</h4>
+            <p>Ефективне обігрівання без складних систем.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container cta-block">
+        <a class="btn btn-accent" href="contact.html#contact-form">Підібрати обладнання</a>
+        <a class="btn btn-secondary" href="tel:+380503049409">Зателефонувати</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div>
+        <div class="footer-brand">Тепло-Майстер Полтава</div>
+        <p><a href="tel:+380503049409">Тел: 050 30 49 409</a></p>
+      </div>
+      <nav class="footer-nav" aria-label="Нижнє меню">
+        <ul>
+          <li><a href="index.html">Головна</a></li>
+          <li><a href="services.html">Послуги</a></li>
+          <li><a class="active" href="catalog.html">Каталог</a></li>
+          <li><a href="about.html">Про нас</a></li>
+          <li><a href="contact.html">Контакти</a></li>
+        </ul>
+      </nav>
+      <div class="footer-copy">
+        <small>© <span id="year"></span> Тепло-Майстер Полтава.</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
