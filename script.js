@@ -59,6 +59,37 @@
     });
   }
 
+  const carouselTrack = document.getElementById('carousel-track');
+  if (carouselTrack) {
+    fetch('products.json')
+      .then((r) => r.json())
+      .then((products) => {
+        products.forEach((p) => {
+          const item = document.createElement('div');
+          item.className = 'carousel-item';
+          const photo = Array.isArray(p.photo_urls) && p.photo_urls.length ? p.photo_urls[0] : '';
+          item.innerHTML = `\n            <img src="${photo}" alt="${p.brand} ${p.model}" />\n            <h4>${p.brand} ${p.model}</h4>\n            <p>${p.description}</p>\n          `;
+          carouselTrack.appendChild(item);
+        });
+        let current = 0;
+        const total = products.length;
+        const update = () => {
+          carouselTrack.style.transform = `translateX(-${current * 100}%)`;
+        };
+        update();
+        const prevBtn = document.querySelector('.carousel-btn.prev');
+        const nextBtn = document.querySelector('.carousel-btn.next');
+        prevBtn && prevBtn.addEventListener('click', () => {
+          current = (current - 1 + total) % total;
+          update();
+        });
+        nextBtn && nextBtn.addEventListener('click', () => {
+          current = (current + 1) % total;
+          update();
+        });
+      });
+  }
+
   const contactForm = document.getElementById('contact-form');
   if (contactForm) {
     contactForm.addEventListener('submit', (e) => {

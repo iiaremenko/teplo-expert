@@ -1,0 +1,429 @@
+[
+  {
+    "brand": "ATON",
+    "category": "Газові котли — димохідні (підлогові)",
+    "line": "ATON Atmo (EM/EBM)",
+    "model": "Atmo 8EM",
+    "description": "Підлоговий атмосферний газовий котел з відкритою камерою згоряння, енергонезалежний.",
+    "specs": {
+      "power_kw": 8,
+      "efficiency_pct": 90,
+      "combustion_chamber": "open",
+      "circuits": "1 (опалення)",
+      "gas_pressure_mbar": 13,
+      "max_gas_consumption_m3_h": 0.94,
+      "flue_diameter_mm": 110,
+      "heating_temp_range_c": "50–90",
+      "max_heating_pressure_bar": 1,
+      "dimensions_mm": "760×320×385",
+      "weight_kg": 36
+    },
+    "photo_urls": [
+      "https://www.aton.ua/en/domestic-boilers-aton/gas-boilers/floor-standing-boilers/floor-flue-gas-aton-atmo-8-25.html"
+    ],
+    "source_url": "https://www.aton.ua/en/domestic-boilers-aton/gas-boilers/floor-standing-boilers/floor-flue-gas-aton-atmo-8-25.html"
+  },
+  {
+    "brand": "ATON",
+    "category": "Газові котли — димохідні (підлогові)",
+    "line": "ATON Atmo (EM/EBM)",
+    "model": "Atmo 10EM",
+    "description": "Підлоговий атмосферний газовий котел з відкритою камерою згоряння, енергонезалежний.",
+    "specs": {
+      "power_kw": 10,
+      "efficiency_pct": 90,
+      "combustion_chamber": "open",
+      "circuits": "1",
+      "gas_pressure_mbar": 13,
+      "max_gas_consumption_m3_h": 1.2,
+      "flue_diameter_mm": 110,
+      "heating_temp_range_c": "50–90",
+      "max_heating_pressure_bar": 1,
+      "dimensions_mm": "760×380×385",
+      "weight_kg": 44
+    },
+    "photo_urls": [
+      "https://e-catalog.com/ATON-ATMO-10E.htm"
+    ],
+    "source_url": "https://www.aton.ua/en/domestic-boilers-aton/gas-boilers/floor-standing-boilers/floor-flue-gas-aton-atmo-8-25.html"
+  },
+  {
+    "brand": "ATON",
+    "category": "Газові котли — димохідні (підлогові)",
+    "line": "ATON Atmo (EM/EBM)",
+    "model": "Atmo 12EM / 12EVM",
+    "description": "12,5 кВт; версія EVM має вбудований мідний проточний теплообмінник ГВП.",
+    "specs": {
+      "power_kw": 12.5,
+      "efficiency_pct": 90,
+      "combustion_chamber": "open",
+      "circuits": "1 (EM) або 2 (EVM)",
+      "dhw_flow_lpm_at_Δ35C": 5,
+      "max_gas_consumption_m3_h": 1.45,
+      "flue_diameter_mm": 110,
+      "dimensions_mm": "760×380×385",
+      "weight_kg": 47
+    },
+    "photo_urls": [
+      "https://www.aton.ua/en/domestic-boilers-aton/gas-boilers/floor-standing-boilers/floor-flue-gas-aton-atmo-8-25.html"
+    ],
+    "source_url": "https://www.aton.ua/en/domestic-boilers-aton/gas-boilers/floor-standing-boilers/floor-flue-gas-aton-atmo-8-25.html"
+  },
+  {
+    "brand": "ATON",
+    "category": "Газові котли — димохідні (підлогові)",
+    "line": "ATON Atmo (EM/EBM)",
+    "model": "Atmo 16EM / 16EVM",
+    "description": "16 кВт; версія EVM з ГВП (≈4 л/хв при Δ35°C).",
+    "specs": {
+      "power_kw": 16,
+      "efficiency_pct": 90,
+      "combustion_chamber": "open",
+      "circuits": "1 або 2",
+      "dhw_flow_lpm_at_Δ35C": 4,
+      "max_gas_consumption_m3_h": 1.8,
+      "flue_diameter_mm": 125,
+      "dimensions_mm": "898×385×488",
+      "weight_kg": "61.4–65.6"
+    },
+    "photo_urls": [
+      "https://www.aton.ua/en/domestic-boilers-aton/gas-boilers/floor-standing-boilers/floor-flue-gas-aton-atmo-8-25.html"
+    ],
+    "source_url": "https://www.aton.ua/en/domestic-boilers-aton/gas-boilers/floor-standing-boilers/floor-flue-gas-aton-atmo-8-25.html"
+  },
+  {
+    "brand": "ATON",
+    "category": "Газові котли — димохідні (підлогові)",
+    "line": "ATON Atmo (EM/EBM)",
+    "model": "Atmo 20EM / 25EM / 30EM",
+    "description": "Моделі 20–30 кВт для більших площ; опалення; відкрита камера.",
+    "specs": {
+      "power_kw": "20 / 25 / 30",
+      "efficiency_pct": 90,
+      "max_gas_consumption_m3_h": "2.4 / 2.8 / 3.3",
+      "flue_diameter_mm": "125 (20) / 135 (25) / 145 (30)",
+      "heating_temp_range_c": "50–90",
+      "max_heating_pressure_bar": "1 (20–25) / 2 (30)"
+    },
+    "photo_urls": [
+      "https://m.ua/links/aton-atmo-20em/",
+      "https://e-catalog.com/ATON-ATMO-16E.htm"
+    ],
+    "source_url": "https://www.aton.ua/en/domestic-boilers-aton/gas-boilers/floor-standing-boilers/floor-flue-gas-aton-atmo-8-25.html"
+  },
+  {
+    "brand": "ATON",
+    "category": "Газові котли — парапетні (настінні, без димоходу)",
+    "line": "ATON Compact",
+    "model": "Compact 7E / 7EB",
+    "description": "Парапетний котел із закритою камерою; енергонезалежний; крізьстінний коаксіальний димохід.",
+    "specs": {
+      "power_kw": 7,
+      "efficiency_pct": 90,
+      "circuits": "1 (E) або 2 (EB)",
+      "dhw_flow_lpm_at_Δ35C": "— (E) / 2.8 (EB)",
+      "max_gas_consumption_m3_h": 0.78,
+      "coaxial_flue_mm": "внутр.130 / зовн.238",
+      "dimensions_mm": "E:650×420×245; EB:700×520×270",
+      "weight_kg": "30.5 (E) / 41.5 (EB)"
+    },
+    "photo_urls": [
+      "https://ek.ua/ATON-COMPACT-16EU.htm",
+      "https://bt.rozetka.com.ua/436379555/p436379555/"
+    ],
+    "source_url": "https://www.aton.ua/ru/domestic-boilers-aton/gas-boilers/parapet-gas-boilers/parapet-wall-gas-aton-compact.html"
+  },
+  {
+    "brand": "ATON",
+    "category": "Газові котли — парапетні",
+    "line": "ATON Compact",
+    "model": "Compact 10E / 10EB; 12.5E / 12.5EB; 16E / 16EB",
+    "description": "Настінні парапетні моделі 10–16 кВт; версії EB мають контур ГВП (мідний змійовик).",
+    "specs": {
+      "power_kw": "10 / 12.5 / 16",
+      "efficiency_pct": 90,
+      "dhw_flow_lpm_at_Δ35C": "3.8 (10EB) / 5.0 (12.5EB) / 6.7 (16EB)",
+      "max_gas_consumption_m3_h": "1.12 / 1.39 / 1.78",
+      "coaxial_flue_mm": "внутр.130; зовн.238 (до 12.5), 260 (16)",
+      "dimensions_mm": "див. таблицю на сторінці лінійки"
+    },
+    "photo_urls": [
+      "https://ek.ua/ATON-COMPACT-16EU.htm",
+      "https://vodolex.com.ua/ru/catalog/parapetnyy-gazovyy-kotel-aton-compact-7e"
+    ],
+    "source_url": "https://www.aton.ua/ru/domestic-boilers-aton/gas-boilers/parapet-gas-boilers/parapet-wall-gas-aton-compact.html"
+  },
+  {
+    "brand": "ATON",
+    "category": "Твердопаливні котли — стальні",
+    "line": "ATON Multi",
+    "model": "Multi 12 / 16 / 20 / 24 / 28 / 38",
+    "description": "Енергонезалежні котли з горизонтальним завантаженням. Паливо: антрацит, вугілля, дрова, торф.",
+    "specs": {
+      "nominal_heat_output_kw": "12–38 (див. таблицю)",
+      "efficiency_pct": "75–78",
+      "water_volume_l": "41–136",
+      "chimney_diameter_mm": "150 (12–24) / 180 (28–38)",
+      "max_coolant_temp_c": 90,
+      "dimensions_mm": "від 895×470×680 до 1280×580×1030",
+      "features": "водоохолоджувані колосники; регулятор тяги Regulus (у комплекті)"
+    },
+    "photo_urls": [
+      "https://www.aton.ua/ru/domestic-boilers-aton/solid-fuel-boilers/steel-solid-fuel-boilers-aton-multi.html"
+    ],
+    "source_url": "https://www.aton.ua/ru/domestic-boilers-aton/solid-fuel-boilers/steel-solid-fuel-boilers-aton-multi.html"
+  },
+  {
+    "brand": "ATON",
+    "category": "Твердопаливні котли — стальні",
+    "line": "ATON Energy",
+    "model": "Energy 12 / 16 / 20",
+    "description": "Компактні стальні твердопаливні котли для приватних будинків, енергонезалежні.",
+    "specs": {
+      "power_kw": "12 / 16 / 20",
+      "efficiency_pct": "≈78–82",
+      "combustion_chamber": "solid fuel",
+      "chimney_diameter_mm": "прибл. 150",
+      "notes": "мідні/чавунні елементи, водоохолоджувані колосники (залежно від моделі)"
+    },
+    "photo_urls": [
+      "https://e-catalog.com/ATON-TTK-ENERGY-12.htm"
+    ],
+    "source_url": "https://www.aton.ua/assets/docs/domestic-boilers-aton/solid-fuel-boilers/ENERGY%2012-20/listivka_stalevi_tverdopalivni_kotli_ENERGY_12-20_RU.pdf"
+  },
+  {
+    "brand": "ТЕРМО",
+    "category": "Газові котли — димохідні (підлогові)",
+    "model": "ТЕРМО АОГВ 10А",
+    "description": "Підлоговий одноконтурний котел з відкритою камерою; проста автоматика, енергонезалежний.",
+    "specs": {
+      "power_kw": 10,
+      "efficiency_pct": "≥90–92",
+      "chimney_diameter_mm": "110/130",
+      "max_gas_consumption_m3_h": 1.11,
+      "dimensions_mm": "770×182×520 (Д×Ш×Г)",
+      "weight_kg": 49,
+      "installation": "floor, natural draft"
+    },
+    "photo_urls": [
+      "https://market.104.ua/ru/product/p8443"
+    ],
+    "source_url": "https://sogreem.in.ua/gazovye-kotly/napolnye/gazovyj-kotel-termo-aogv-10a"
+  },
+  {
+    "brand": "ТЕРМО",
+    "category": "Газові котли — димохідні (підлогові)",
+    "model": "ТЕРМО АОГВ 12А",
+    "description": "Енергонезалежний підлоговий котел для опалення до ~120 м².",
+    "specs": {
+      "power_kw": 12,
+      "efficiency_pct": "≈90–92",
+      "ignition": "piezo",
+      "dimensions_mm": "770×182×630 (В×Ш×Г, згідно продавця)",
+      "weight_kg": 50
+    },
+    "photo_urls": [
+      "https://bt.rozetka.com.ua/ua/483055824/p483055824/"
+    ],
+    "source_url": "https://teplopolis.com.ua/gazovyj-kotel-termo-aogv-12a-"
+  },
+  {
+    "brand": "ТЕРМО",
+    "category": "Газові котли — парапетні",
+    "model": "ТЕРМО АОГВ 12С",
+    "description": "Парапетний (коаксіальний) одноконтурний котел; встановлення біля зовнішньої стіни.",
+    "specs": {
+      "power_kw": 12,
+      "efficiency_pct": 90,
+      "max_gas_consumption_m3_h": 1.39,
+      "coaxial_flue_mm": "внутр./зовн. типово 130/—",
+      "warranty_years": 5
+    },
+    "photo_urls": [
+      "https://teplocentr.in.ua/p1933446955-gazovyj-kotel-termo.html"
+    ],
+    "source_url": "https://duim.com.ua/kotel_parapetnyi_napolnyi_termo_aohv_12_s"
+  },
+  {
+    "brand": "NAVIEN",
+    "category": "Каскадні системи котлів",
+    "line": "NFB-H (Heating Boiler)",
+    "model": "NFB-H series (каскад)",
+    "description": "Конденсаційні котли з каскадним керуванням; можливе спільне та окреме відведення диму; підходить для каскадів.",
+    "specs": {
+      "cascade": "вбудована функція балансування навантаження",
+      "venting": "direct / non-direct",
+      "application": "опалення житлових і комерційних об’єктів"
+    },
+    "photo_urls": [
+      "https://www.navieninc.com/series/nfb-h"
+    ],
+    "source_url": "https://www.navieninc.com/series/nfb-h"
+  },
+  {
+    "brand": "NAVIEN",
+    "category": "Каскадні системи котлів",
+    "line": "NCB-H (Combi)",
+    "model": "NCB-H series (каскад)",
+    "description": "Конденсаційні комбіновані котли (опалення + ГВП). Підтримують каскадне підключення.",
+    "specs": {
+      "documents": "Інсталяційний мануал доступний на сторінці завантажень",
+      "notes": "серія для житлових і малих комерційних об’єктів"
+    },
+    "photo_urls": [
+      "https://www.navieninc.com/series/ncb-h/downloads"
+    ],
+    "source_url": "https://www.navieninc.com/downloads/ncb-h-installation-and-operation-manual-en"
+  },
+  {
+    "brand": "NAVIEN",
+    "category": "Каскадні системи водонагрівачів/котлів",
+    "line": "Ready-Link®",
+    "model": "Каскадування до 32 одиниць",
+    "description": "Готова каскадна технологія: при досягненні ~80% навантаження підключається наступний агрегат; можливий спільний димохід до 12 одиниць.",
+    "specs": {
+      "max_units_cascade": 32,
+      "common_vent_max_units": 12
+    },
+    "photo_urls": [
+      "https://www.navieninc.com/series/npe-a2"
+    ],
+    "source_url": "https://www.navieninc.com/series/npe-a2"
+  },
+  {
+    "brand": "Житомир (АТЕМ)",
+    "category": "Газові конвектори",
+    "model": "Житомир-5 КНС-2 (2.5 кВт)",
+    "description": "Настінний газовий конвектор для приміщень до ~25 м².",
+    "specs": {
+      "power_kw": 2.5,
+      "area_m2": 25,
+      "energy": "працює без електрики",
+      "install": "wall",
+      "dimensions_mm": "555×505×270 (близько)"
+    },
+    "photo_urls": [
+      "https://e-catalog.com/ATEM-ZHYTOMYR-5-KNS-2.htm"
+    ],
+    "source_url": "https://e-catalog.com/ATEM-ZHYTOMYR-5-KNS-2.htm"
+  },
+  {
+    "brand": "Житомир (АТЕМ)",
+    "category": "Газові конвектори",
+    "model": "Житомир-5 КНС-4Д (4 кВт) димохідний",
+    "description": "Конвектор з автоматикою EUROSIT 630; димоходний варіант.",
+    "specs": {
+      "power_kw": 4,
+      "energy": "без електрики",
+      "gas_consumption_natural_m3_h": 0.42,
+      "area_m2": "≈40–50",
+      "weight_kg": 25
+    },
+    "photo_urls": [
+      "https://shop.atem.ua/ua/catalog/konvektory-gazovye-zitomir-5?city=0"
+    ],
+    "source_url": "https://shop.atem.ua/ua/product/kns-4"
+  },
+  {
+    "brand": "Житомир (АТЕМ)",
+    "category": "Газові конвектори",
+    "model": "Житомир-5 КНС-6 (6 кВт)",
+    "description": "Потужніший настінний конвектор для більших кімнат.",
+    "specs": {
+      "power_kw": 6,
+      "energy": "без електрики",
+      "automation": "EUROSIT 630"
+    },
+    "photo_urls": [
+      "https://shop.atem.ua/ua/product/kns-6"
+    ],
+    "source_url": "https://shop.atem.ua/ua/product/kns-6"
+  },
+  {
+    "brand": "Termet",
+    "category": "Газові проточні колонки",
+    "line": "TermaQ",
+    "model": "TermaQ G-19-01 (п’єзорозпал)",
+    "description": "Димохідна колонка з мідним теплообмінником; запалювання від п’єзо; продуктивність до ≈11–11.5 л/хв.",
+    "specs": {
+      "power_kw": "≈19–19.4",
+      "ignition": "piezo",
+      "min_water_pressure_bar": 0.2,
+      "combustion": "open flue"
+    },
+    "photo_urls": [
+      "https://eurounica.com/otoplenie/vodonagrevateli/gazovye-kolonki/termet-232/"
+    ],
+    "source_url": "https://termo-volga.ru/catalog/gas_water_heaters/s-pezorozzhigom/gazovaya-kolonka-termet-serii-termaq-19-01/"
+  },
+  {
+    "brand": "Termet",
+    "category": "Газові проточні колонки",
+    "line": "TermaQ ELECTRONIC",
+    "model": "GE/ G-19-02 (електронне запалювання)",
+    "description": "Повна модуляція потужності; розпал від батарейок; мідний теплообмінник.",
+    "specs": {
+      "power_kw": "≈19–19.2",
+      "ignition": "battery (electronic)",
+      "min_water_pressure_bar": 0.2,
+      "flow_lpm_at_Δ25C": "до ~10–11",
+      "combustion": "open flue"
+    },
+    "photo_urls": [
+      "https://thermolux.com.ua/termet-g19-02-gazovaya-kolonka-s-modulyatsiej-plameni-s-rozzhigom-ot-batareek-terma-q-electronic"
+    ],
+    "source_url": "https://olditerm.prom.ua/p975742983-gazovaya-kolonka-termet.html"
+  },
+  {
+    "brand": "Lemax",
+    "category": "Газові проточні колонки",
+    "model": "Classic-20",
+    "description": "Атмосферна димохідна колонка 20 кВт, ≈10 л/хв; мідний теплообмінник.",
+    "specs": {
+      "power_kw": 20,
+      "efficiency_pct": 84,
+      "flow_lpm_at_Δ25C": 10,
+      "ignition": "electronic",
+      "min_water_pressure_bar": 0.2,
+      "flue_diameter_mm": 110,
+      "dimensions_mm": "550×330×188",
+      "weight_kg": "≈8–9.7"
+    },
+    "photo_urls": [
+      "https://lemax-kotel.ru/catalog/gazovye_vodonagrevateli/vodonagrevatel_lmx_classic_20"
+    ],
+    "source_url": "https://www.ozon.ru/product/gazovaya-kolonka-lemaks-classic-20-10-l-min-1196421151/"
+  },
+  {
+    "brand": "Lemax",
+    "category": "Газові проточні колонки",
+    "model": "Alpha 20M",
+    "description": "Димохідна колонка 20 кВт з електророзпалом, продуктивність ≈10 л/хв.",
+    "specs": {
+      "power_kw": 20,
+      "flow_lpm": 10,
+      "flue_diameter_mm": 110,
+      "ignition": "battery (electronic)"
+    },
+    "photo_urls": [
+      "https://www.ozon.ru/product/gazovaya-kolonka-lemaks-alfa-20m-777209719/"
+    ],
+    "source_url": "https://gkstrade.org/index.php?product_id=16262&route=product/product"
+  },
+  {
+    "brand": "Львівська",
+    "category": "Газові проточні колонки",
+    "model": "ВПГ-18",
+    "description": "Українська димохідна колонка (виробництво/збірка з 2019 р. — Чернігів); продуктивність ~10–11 л/хв; модуляція.",
+    "specs": {
+      "flow_lpm": "≈10–11",
+      "noise_dBA": "≈25 (заявлено продавцем)",
+      "ignition": "battery (electronic)",
+      "combustion": "open flue"
+    },
+    "photo_urls": [
+      "https://www.teplo-tehnika.com.ua/gazovaia-kolonka-lvovskaia-vpg-18-ua.html"
+    ],
+    "source_url": "https://sivtermo.com.ua/gazovi-kolonki-protochni-ua/dimohidni-gazovi-kolonki-ua/lvivska-ua"
+  }
+]
