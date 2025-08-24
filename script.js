@@ -62,12 +62,18 @@
   const carouselTrack = document.getElementById('carousel-track');
   if (carouselTrack) {
     fetch('products.json')
-      .then((r) => r.json())
+      .then((r) => {
+        if (!r.ok) throw new Error('Failed to load catalog');
+        return r.json();
+      })
       .then((products) => {
         products.forEach((p) => {
           const item = document.createElement('div');
           item.className = 'carousel-item';
-          const photo = Array.isArray(p.photo_urls) && p.photo_urls.length ? p.photo_urls[0] : '';
+          const photo =
+            (Array.isArray(p.photo_urls) &&
+              p.photo_urls.find((u) => /\.(png|jpe?g|gif|webp|svg)$/.test(u))) ||
+            'logo-placeholder.svg';
           item.innerHTML = `\n            <img src="${photo}" alt="${p.brand} ${p.model}" />\n            <h4>${p.brand} ${p.model}</h4>\n            <p>${p.description}</p>\n          `;
           carouselTrack.appendChild(item);
         });
@@ -87,6 +93,12 @@
           current = (current + 1) % total;
           update();
         });
+      })
+      .catch((err) => {
+        const msg = document.createElement('p');
+        msg.textContent = 'Не вдалося завантажити каталог.';
+        carouselTrack.appendChild(msg);
+        console.error(err);
       });
   }
 
