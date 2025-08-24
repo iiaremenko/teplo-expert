@@ -42,8 +42,12 @@
     filterButtons.forEach((btn) => {
       btn.addEventListener('click', () => {
         const filter = btn.getAttribute('data-filter') || 'all';
-        filterButtons.forEach((b) => b.classList.remove('active'));
+        filterButtons.forEach((b) => {
+          b.classList.remove('active');
+          b.setAttribute('aria-selected', 'false');
+        });
         btn.classList.add('active');
+        btn.setAttribute('aria-selected', 'true');
         items.forEach((item) => {
           const category = item.getAttribute('data-category');
           const show = filter === 'all' || category === filter;
