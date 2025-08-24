@@ -75,4 +75,44 @@
       contactForm.reset();
     });
   }
+
+  const carousel = document.getElementById('product-carousel');
+  if (carousel) {
+    fetch('products.json')
+      .then((res) => res.json())
+      .then((data) => {
+        const track = carousel.querySelector('.carousel-track');
+        data.forEach((item) => {
+          const slide = document.createElement('div');
+          slide.className = 'carousel-item';
+          const imgUrl = (item.photo_urls && item.photo_urls[0]) || 'logo-placeholder.svg';
+          slide.innerHTML = `
+            <img src="${imgUrl}" alt="${item.brand} ${item.model}">
+            <h4>${item.brand} ${item.model}</h4>
+            <p>${item.description}</p>
+          `;
+          track.appendChild(slide);
+        });
+      });
+
+    let index = 0;
+    const track = carousel.querySelector('.carousel-track');
+    const prevBtn = carousel.querySelector('.carousel-prev');
+    const nextBtn = carousel.querySelector('.carousel-next');
+
+    function update() {
+      track.style.transform = `translateX(-${index * 100}%)`;
+    }
+
+    prevBtn.addEventListener('click', () => {
+      const total = carousel.querySelectorAll('.carousel-item').length;
+      index = (index - 1 + total) % total;
+      update();
+    });
+    nextBtn.addEventListener('click', () => {
+      const total = carousel.querySelectorAll('.carousel-item').length;
+      index = (index + 1) % total;
+      update();
+    });
+  }
 })();
